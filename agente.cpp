@@ -15,6 +15,7 @@ agente::agente() {
     this->pesoCoesao = 0.1;                                      //fator de multiplicação do coeficiente de coesão
     this->pesoSeparacao = 0.7;                                  //fator de multiplicação do coeficiente de separação
     cleanAlvo();
+    int inutil=0;
 }
 
 peixe::peixe() // Atribui caracteristicas individuais do peixe
